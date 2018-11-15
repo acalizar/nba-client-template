@@ -66,7 +66,7 @@ function handlePair (key, value, depth) {
   }
 
   return `${key}: $`
-)
+
 }
 
 getEndpoint(template.stats_endpoints[0])

@@ -6,7 +6,7 @@ import urllib2
 import re
 
 # wtf python?
-# http://stackoverflow.com/a/13105359
+# https://stackoverflow.com/a/13105359
 def byteify(input):
     if isinstance(input, dict):
         return {byteify(key): byteify(value)
